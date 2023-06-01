@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: meepayment
+    container_name: meepayment
+    restart: unless-stopped
+    networks:
+      - app-network
+     ports:
+      - '9000:9000'  
+networks:
+  app-network:

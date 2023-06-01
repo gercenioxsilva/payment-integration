@@ -1,0 +1,38 @@
+{
+    "development": {
+        "username": "root",
+        "password": "Wxp@Mysql",
+        "database": "meepayment",
+        "host": "localhost",
+        "dialect": "mysql",
+        "define": {
+            "timestamps": true,
+            "paranoid": true,
+            "freezeTableName": true
+        }
+    },
+    "test": {
+        "username": "admin",
+        "password": "4ls16xuTupWswWg9Hf3D",
+        "database": "meepayment",
+        "host": "meepaymentsdb.cwvdamvgrxrr.sa-east-1.rds.amazonaws.com",
+        "dialect": "mysql",
+        "define": {
+            "timestamps": true,
+            "paranoid": true,
+            "freezeTableName": true
+        }
+    },
+    "production": {
+        "username": "admin",
+        "password": "4ls16xuTupWswWg9Hf3D",
+        "database": "meepayment",
+        "host": "meepaymentsdb.cwvdamvgrxrr.sa-east-1.rds.amazonaws.com",
+        "dialect": "mysql",
+        "define": {
+            "timestamps": true,
+            "paranoid": true,
+            "freezeTableName": true
+        }
+    }
+}
